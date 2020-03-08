@@ -1,11 +1,10 @@
-
-public class Circulo extends Figura {
+public class Circulo extends Figura2D {
 	
 	private double raio;
 	
 	@Override
 	public double area() {
-		return 0;
+		return Math.PI * (Math.pow(raio, 2));
 	}
 	
 	public Circulo(double raio) {

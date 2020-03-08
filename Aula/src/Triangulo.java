@@ -1,4 +1,3 @@
-
 public class Triangulo extends Poligono {
 
 	public Triangulo(int base, int altura) {

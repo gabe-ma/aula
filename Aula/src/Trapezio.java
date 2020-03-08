@@ -1,11 +1,15 @@
-
 public class Trapezio extends Poligono {
 
 	private int bMenor;
 	private int lado;
 	
-	public Trapezio(int bMenor, int altura, int baseMenor, int lado) {
-		super(bMenor, altura);
+	@Override
+	public double area() {
+		return ((getBase() * bMenor) * getAltura()) / 2;
+	}
+	
+	public Trapezio(int bMaior, int altura, int bMenor, int lado) {
+		super(bMaior, altura);
 		this.bMenor = bMenor;
 		this.lado = lado;
 	}
@@ -26,8 +30,4 @@ public class Trapezio extends Poligono {
 		this.lado = lado;
 	}
 	
-	@Override
-	public double area() {
-		return ((getBase() * bMenor) * getAltura()) / 2;
-	}
 }

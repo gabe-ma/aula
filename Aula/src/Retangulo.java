@@ -1,4 +1,3 @@
-
 public class Retangulo extends Poligono implements Diagonal {
 
 	public Retangulo(int base, int altura) {
@@ -8,6 +7,7 @@ public class Retangulo extends Poligono implements Diagonal {
 
 	@Override
 	public double diagonal() {
+		// Calculo da diagonal
 		return Math.sqrt(Math.pow(getBase(), 2) + Math.pow(getAltura(), 2));
 	}
 	

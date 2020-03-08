@@ -1,12 +1,11 @@
-
-public abstract class Poligono extends Figura {
+public abstract class Poligono extends Figura2D {
 
 	private int base;
 	private int altura;
 	
 	@Override
 	public double area() {
-		return getBase() *getAltura();
+		return getBase() * getAltura();
 	}
 
 	public Poligono(int base, int altura) {

@@ -1,4 +1,3 @@
-
 public class Cilindro extends Figura3D {
 
 	private int raio;
@@ -29,6 +28,5 @@ public class Cilindro extends Figura3D {
 	public void setAltura(int altura) {
 		this.altura = altura;
 	}
-	
 	
 }

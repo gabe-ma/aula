@@ -1,8 +1,7 @@
-
 public class Cubo extends Figura3D {
-
-	private int aresta;
 	
+	private int aresta;
+
 	@Override
 	public double volume() {
 		return Math.pow(getAresta(), 3);
@@ -19,5 +18,5 @@ public class Cubo extends Figura3D {
 	public void setAresta(int aresta) {
 		this.aresta = aresta;
 	}
-	
+
 }

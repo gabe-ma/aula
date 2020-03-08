@@ -1,9 +1,8 @@
-
 public class Esfera extends Figura3D {
 
-	private int raio;
-	
-	@Override
+    private int raio;
+    
+    @Override
 	public double volume() {
 		return 4/3 * Math.PI * (Math.pow(raio, 3));
 	}
@@ -19,6 +18,5 @@ public class Esfera extends Figura3D {
 	public void setRaio(int raio) {
 		this.raio = raio;
 	}
-	
-	
+
 }
